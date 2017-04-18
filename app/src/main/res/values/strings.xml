@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string-array name="peopleNumber">
+        <item>3人</item>
+        <item>4人</item>
+        <item>5人</item>
+    </string-array>
+</resources>
