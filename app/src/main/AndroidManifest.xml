@@ -15,6 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:label="ChoosePlayer" android:name=".ChoosePlayer"
+            android:windowSoftInputMode="adjustPan"/>
     </application>
 
 </manifest>

@@ -12,7 +12,7 @@
 
     <TextView
         android:text="搶數字"
-        android:textSize="70dp"
+        android:textSize="70sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -22,31 +22,31 @@
 
     <Button
         android:text="多人模式"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:layout_width="250dp"
         android:layout_height="70dp"
         android:id="@+id/buttonMultiplePlayer"
         android:layout_marginBottom="52dp"
-        android:layout_above="@+id/button"
+        android:layout_above="@+id/rule"
         android:layout_alignLeft="@+id/buttonTwoPlayer"
         android:layout_alignStart="@+id/buttonTwoPlayer" />
 
     <Button
         android:text="遊戲玩法"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="26dp"
         android:layout_marginEnd="26dp"
         android:layout_marginBottom="26dp"
-        android:id="@+id/button"
+        android:id="@+id/rule"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
     <Button
         android:text="單人模式"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:id="@+id/buttonSinglePlayer"
         android:layout_width="250dp"
         android:layout_height="70dp"
@@ -56,7 +56,7 @@
 
     <Button
         android:text="雙人模式"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:layout_width="250dp"
         android:layout_height="70dp"
         android:id="@+id/buttonTwoPlayer"
@@ -66,13 +66,14 @@
         android:layout_alignStart="@+id/buttonSinglePlayer" />
 
     <Spinner
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:layout_height="wrap_content"
         android:id="@+id/spinner"
         android:layout_marginBottom="22dp"
         android:layout_width="250dp"
-        android:layout_above="@+id/button"
+        android:layout_above="@+id/rule"
         android:layout_alignLeft="@+id/buttonMultiplePlayer"
-        android:layout_alignStart="@+id/buttonMultiplePlayer" />
+        android:layout_alignStart="@+id/buttonMultiplePlayer"
+        android:spinnerMode="dialog" />
 
 </RelativeLayout>
